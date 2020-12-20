@@ -26,6 +26,11 @@ h3 {
   color: #11999e;
 }
 
+.titlep {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
 p {
   line-height: 2;
 }
@@ -200,4 +205,10 @@ a:hover {
   -moz-border-radius: 8px;
   border-radius: 8px;
   text-decoration: none;
+}
+
+.footer-p {
+  /* color: #11999e; */
+  color: whitesmoke;
+  margin-bottom: 0;
 }
