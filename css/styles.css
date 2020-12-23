@@ -213,6 +213,11 @@ a:hover {
   margin-bottom: 0;
 }
 
+.same-zise-img {
+  width: 286px;
+  height: 153.33px;
+}
+
 @media (max-width: 600px) {
   .top-cloud {
     position: absolute;
