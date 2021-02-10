@@ -213,6 +213,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.card-heighth {
+  max-height: 400px;
+}
+
 .same-zise-img {
   width: 286px;
   height: 153.33px;
