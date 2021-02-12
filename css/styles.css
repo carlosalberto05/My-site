@@ -222,24 +222,37 @@ a:hover {
   height: 153.33px;
 }
 
-@media (max-width: 600px) {
+/* Iphone 6/7/8 */
+@media (max-width: 667px) {
+  body {
+    width: 100%;
+  }
+
+  .container1 {
+    background-color: #f1f6f9;
+    position: relative;
+    padding-top: 70px;
+  }
+
   .top-cloud {
+    width: 30%;
     position: absolute;
-    right: 300px;
+    right: 230px;
     top: 40px;
     animation: backInRight;
     animation-duration: 2s;
   }
 
   .bottom-cloud {
+    width: 30%;
     position: absolute;
-    left: 320px;
-    bottom: 250px;
+    left: 235px;
+    bottom: 160px;
     animation: backInLeft;
     animation-duration: 2s;
   }
   .mountain {
-    width: 98%;
+    width: 90%;
   }
   h1 {
     font-size: 2.8125rem;
