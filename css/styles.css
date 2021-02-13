@@ -319,6 +319,10 @@ a:hover {
     height: auto;
   }
 
+  .contact-message {
+    width: 70%;
+  }
+
   .btn {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
