@@ -224,10 +224,6 @@ a:hover {
 
 /* Iphone 6/7/8 */
 @media (max-width: 667px) {
-  body {
-    width: 100%;
-  }
-
   .container1 {
     background-color: #f1f6f9;
     position: relative;
@@ -254,13 +250,28 @@ a:hover {
   .mountain {
     width: 90%;
   }
+
+  .profile {
+    margin-top: -10%;
+  }
+
+  .profile-image {
+    max-width: 40%;
+    margin-bottom: 2rem;
+  }
+
+  .intro {
+    width: 60%;
+    margin: auto;
+  }
+
   h1 {
     font-size: 2.8125rem;
     margin: 25px auto 0 auto;
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     color: #66bfbf;
     font-weight: normal;
     padding-bottom: 5px;
@@ -273,7 +284,7 @@ a:hover {
     margin: 50px auto;
   }
   p {
-    line-height: 1.7;
+    line-height: 1.5;
   }
   a {
     margin: 5px 10px;
@@ -287,21 +298,15 @@ a:hover {
     background-color: #66bfbf;
     padding: 25px 0 10px;
   }
+
   .skill-row {
-    margin: 50px auto 50px auto;
+    width: 70%;
     text-align: left;
   }
 
-  .code-img {
-    width: 25%;
-    float: left;
-    margin-right: 15px;
-  }
-
-  .chili-img {
-    width: 25%;
-    float: right;
-    margin-left: 15px;
+  .container-projects {
+    display: flex;
+    justify-content: center;
   }
 
   .btn {
