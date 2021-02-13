@@ -277,6 +277,11 @@ a:hover {
     padding-bottom: 5px;
   }
 
+  h3 {
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
   hr {
     border: dotted #eaf6f6 8px;
     border-bottom: none;
@@ -307,6 +312,11 @@ a:hover {
   .container-projects {
     display: flex;
     justify-content: center;
+  }
+
+  .video {
+    max-width: 80%;
+    height: auto;
   }
 
   .btn {
